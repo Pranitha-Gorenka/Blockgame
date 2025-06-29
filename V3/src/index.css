@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+}
+
+// src/styles.css
+.app {
+  text-align: center;
+  padding: 20px;
+}
+.start-page button {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.hole img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.scoreboard {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
